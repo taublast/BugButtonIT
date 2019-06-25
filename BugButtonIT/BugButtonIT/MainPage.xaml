@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="BugButtonIT.MainPage">
+
+    <Grid VerticalOptions="FillAndExpand">
+
+        <StackLayout VerticalOptions="Center">
+
+            <!-- Place new controls here -->
+        <Label 
+            Text="Button Input Transparent" 
+           HorizontalOptions="Center"/>
+
+
+
+
+                <Button                 
+                    x:Name="BtnMain"
+                
+                    InputTransparent="True"
+
+                    BorderWidth="0.75"
+                    
+                    Clicked="BtnMain_OnClicked"  
+                    Released="BtnMain_OnReleased"
+                    Pressed="BtnMain_OnPressed"
+                    
+                    HorizontalOptions="Center"
+                    WidthRequest="200"             
+                    HeightRequest="38" 
+                    BorderRadius="7"/>
+
+            
+
+
+        </StackLayout>
+
+        </Grid>
+
+</ContentPage>
